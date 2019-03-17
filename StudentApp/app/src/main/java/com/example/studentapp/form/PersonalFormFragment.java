@@ -106,7 +106,7 @@ public class PersonalFormFragment extends Fragment {
                         }){
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
-                        Map<String, String> params = new HashMap<String, String>();
+                        Map<String, String> params = new HashMap<String,String>();
                         params.put("Fullname",Fullname);
                         params.put("Paddress",Paddress);
                         params.put("Taddress",Taddress);

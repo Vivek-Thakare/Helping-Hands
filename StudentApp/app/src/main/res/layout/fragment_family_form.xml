@@ -36,13 +36,12 @@
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutfathername"
+                android:id="@+id/fathername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/fathername"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Father Name"
@@ -50,13 +49,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutfmob"
+                android:id="@+id/fmob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/fmob"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Father Mobile No."
@@ -64,13 +62,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutfocc"
+                android:id="@+id/focc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/focc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Father occupation"
@@ -78,13 +75,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutmname"
+                android:id="@+id/mname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/mname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mother Name"
@@ -92,13 +88,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutmmob"
+                android:id="@+id/mmob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/mmob"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mother Mobile No."
@@ -106,13 +101,12 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/inputlayoutmocc"
+                android:id="@+id/mocc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true">
 
                 <EditText
-                    android:id="@+id/mocc"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="Mother occupation"
